@@ -7,12 +7,12 @@ server:
   port: 4001 #端口号
 spring:
   profiles: dev  #开发环境
-  applicatons:
+  applications:
     name: microservice-config-dev
 ---
 server:
   port: 4002
 spring:
   profiles: prod #生产环境
-  applicatons:
+  applications:
     name: microservice-config-prod 
